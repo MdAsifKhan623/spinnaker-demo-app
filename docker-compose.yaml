@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  asifapp1:
+    image: asifapp:v1
+    build: .
+    container_name: asifcont1
+    ports:
+      - "1099:80"
